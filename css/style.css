@@ -1,0 +1,440 @@
+* {
+  padding: 0;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* TAMAÑO DE LETRA de cada elemento*/
+.título-landing {
+  font-size: 80px;
+}
+p {
+  margin-bottom: 1.6em;
+  font-size: 18px;
+}
+ul {
+  list-style: none;
+}
+li {
+  font-size: 16px;
+}
+
+.container {
+  width: 85%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* color del menu */
+.header {
+  background: white;
+  padding: 2rem 0;
+  /* navegador fijo */
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+/* color de letra del menu*/
+.header a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.logo-nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* TAMAÑO DEL LOGO */
+.logo img {
+  width: 60px;
+  height: auto;
+}
+/* navegador */
+.navigation ul li {
+  display: inline-block;
+}
+.navigation ul li a {
+  display: block;
+  padding: 0.5rem 1rem;
+}
+/* color al pasar el mouse por menú */
+.navigation ul li a:hover {
+  color: #75c2c2;
+  transition: 0.4s;
+}
+main {
+  padding-top: 8rem;
+}
+/* Título e imagen-landing */
+#hero {
+  height: 100vh;
+  background-image: url(../img/plano-landing.png);
+  background-size: cover;
+  background-position: center;
+}
+.landing {
+  position: absolute;
+  top: 50%;
+  left: 8%;
+}
+/*BOTON*/
+.boton {
+  background-color: #75c2c2;
+  color: white;
+  text-decoration: none;
+  border: 1px solid rgba(0, 0.5, 0, 0);
+  padding: 10px 25px;
+  border-radius: 10px;
+}
+.boton:hover{
+  cursor: pointer;
+}
+.somos-ocassio {
+  width: 100%;
+  padding: 100px 0px;
+  background-color: white;
+}
+.somos-ocassio img {
+  height: auto;
+  width: 430px;
+}
+.somos-texto {
+  width: 550px;
+}
+.container-somos {
+  width: 85%;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.somos-texto h2 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+/* color span de la palabra ocassio */
+.color-ocassio {
+  color: rgb(120, 194, 194);
+}
+.somos-texto p {
+  letter-spacing: 1px;
+  margin-bottom: 45px;
+}
+/* sección que ofrecemos */
+.ofrecemos {
+  background: #f5fbf9;
+}
+.container-ofrecemos {
+  padding: 100px 0px;
+}
+.titulo-ofrecemos h2 {
+  font-size: 40px;
+  width: 1130px;
+  margin: 30px auto;
+  text-align: center;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  flex-wrap: wrap;
+}
+.card {
+  height: 365px;
+  width: 335px;
+  padding: 20px 35px;
+  background: white;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  left: 50px;
+  right: 50px;
+  text-align: center;
+}
+.imagen1 {
+  display: block;
+  width: 240px;
+  height: auto;
+}
+.imagen2 {
+  width: 290px;
+  height: auto;
+}
+.imagen3 {
+  width: 280px;
+  height: auto;
+}
+.card h3 {
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+/* INICIA FOOTER */
+footer {
+  width: 100%;
+  padding: 50px 0px;
+  background: black;
+  color: white;
+}
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  max-width: 1400px;
+  margin: auto;
+  margin-top: 10px;
+}
+.container-footer p {
+  font-size: 16px;
+}
+.box-footer {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+.box-footer .logo img {
+  max-width: 350px;
+  margin-top: 20px;
+  font-weight: 500;
+}
+.box-copyright {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  padding: 0px 40px;
+}
+.box-copyright p {
+  margin-top: 20px;
+  font-size: 16px;
+}
+/* TERMINA FOTER */
+/* html quienes somos */
+.equipo {
+  width: 100%;
+  padding: 100px 0px;
+}
+
+.container-misión {
+  display: flex;
+  justify-content: center;
+}
+.box-mision {
+  height: 365px;
+  width: 335px;
+  padding: 20px 35px;
+  background: #dbf0ea;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  text-align: center;
+}
+.box-mision {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+/* sección INTEGRANTES  de la empresa */
+.integrantes {
+  background: #75c2c2;
+  color: white;
+  padding: 50px;
+}
+.título-integrantes {
+  display: flex;
+  justify-content: center;
+  font-size: 30px; 
+  padding-bottom: 30px;
+}
+.box-equipo {
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+ grid-auto-rows: minmax(200px,auto);
+ gap: 25px;
+ justify-items: center;
+}
+.persona img {
+  width: 330px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* SECCIÓN DE SERVICIOS */
+.foto-landing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 90vh;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../img/servicios-steel.jpg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.foto-landing h1 {
+  color: white;
+  font-size: 40px;
+}
+/* GRID  del apartado servicios*/
+.box-servicios {
+  display: grid;
+  grid-template-areas: "servicio1 servicio2 servicio3 servicio4";
+  gap: 15px;
+}
+.servicio1 {
+  grid-area: servicio1;
+}
+
+.servicio2 {
+  grid-area: servicio2;
+}
+
+.servicio3 {
+  grid-area: servicio3;
+}
+
+.servicio4 {
+  grid-area: servicio4;
+}
+.grid {
+  width: 90%;
+  margin: auto;
+}
+.img {
+  width: 270px;
+}
+/* .servicios {
+  height: auto;
+  padding-bottom: 80px;
+  margin-top: 50px;
+} */
+.titulo-servicios {
+  text-align: center;
+}
+.servicio {
+  text-align: center;
+  width: 22%;
+}
+/* termina el apartado de servicios */
+/* SECCION PROYECTOS */
+.foto-estructuras {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 90vh;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../img/estructuras.jpg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.foto-estructuras h1 {
+  color: white;
+  font-size: 40px;
+}
+.proyectos{
+ padding-left: 55px;
+ padding-bottom: 50px;
+}
+.titulo-proyectos {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+/* GRID DE SECCIÓN PROYECTOS*/
+.box-proyectos{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, auto));
+  grid-auto-rows: minmax(200px,auto);
+  gap: 30px;
+  justify-items: center;
+}
+.box-proyectos img {
+  width: 400px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* CONTACTO*/
+.container-contacto {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  background: #b1dfd6;
+  color: rgb(255, 255, 255);
+}
+.titulo-contacto {
+  text-align: center;
+  font-size: 40px;
+}
+form{
+  width: 600px;
+  margin: auto;
+  background: rgba(0, 0, 0,0.4);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+input, textarea{
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+textarea{
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1099px) {
+ /* agregarrr cambios */
+}
+
+@media screen and (max-width: 480px) {
+  /* SECCION PROYECTOS */
+  nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .titulo-proyectos {
+    font-size: 20px;
+  }
+  .box-proyectos img {
+    width: 400px;
+  } 
+
+  /* FOOTER */
+  .container-footer {
+    display: flex;
+    flex-direction: column;
+  }
+ form{
+   width: 100%;
+ }
+}
