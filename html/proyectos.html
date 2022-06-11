@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- LOGO -->
     <link rel="shortcut icon" href="../img/foto-logo.png" type="image/x-icon">
+    <!-- ANIMACION AOS-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
     <title>Ocassio | Nuestros Proyectos</title>
@@ -36,45 +38,45 @@
         <section class="proyectos">
             <div>
                 <div class="titulo-proyectos">
-                    <h2> Últimos proyectos</h2>
+                    <h2 data-aos="flip-down"> Últimos proyectos</h2>
                 </div>
                 <div class="box-proyectos">
-                    <div class="proyecto1">
+                    <div data-aos="flip-up" class="proyecto1">
                         <h3>Casa Tejas 4</h3>
                         <img src="../img/proyecto1.PNG" alt="imagen de obra 1">
                         <a href="#">
                             <button type="button" class="boton">Visualizar</button>
                         </a>
                     </div>
-                    <div class="proyecto2">
+                    <div data-aos="flip-up" class="proyecto2">
                         <h3>Ampliación Mariano Tuma</h3>
                         <img src="../img/obra2..PNG" alt="imagen proyecto 2">
                         <a href="#">
                             <button type="button" class="boton">Visualizar</button>
                         </a>
                     </div>
-                    <div class="proyecto3">
+                    <div data-aos="flip-up" class="proyecto3">
                         <h3>Casa Lote 11</h3>
                         <img src="../img/proyecto2..PNG" alt="imagen protecto 3">
                         <a href="#">
                             <button type="button" class="boton">Visualizar</button>
                         </a>
                     </div>
-                    <div class="proyecto4">
+                    <div data-aos="flip-up" class="proyecto4">
                         <h3>Local Bicimanía</h3>
                         <img src="../img/proyecto4.jpeg" alt="imagen proyecto 4">
                         <a href="#">
                             <button type="button" class="boton">Visualizar</button>
                         </a>
                     </div>
-                    <div class="proyecto5">
+                    <div data-aos="flip-up" class="proyecto5">
                         <h3>Casa Mary Hegi</h3>
                         <img src="../img/casa MaryHegi1.JPG" alt="imagen proyecto 5">
                         <a href="#">
                             <button type="button" class="boton">Visualizar</button>
                         </a>
                     </div>
-                    <div class="proyecto6">
+                    <div data-aos="flip-up" class="proyecto6">
                         <h3>Heber Hegi</h3>
                         <img src="../img/casa MaryHegi2.JPG" alt="imagen proyecto 6">
                         <a href="#">
@@ -116,6 +118,9 @@
             <p> &copy; 2022 <b>Ocassio.</b> Todos los derechos reservados</p>
         </section>
     </footer>
-   
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>

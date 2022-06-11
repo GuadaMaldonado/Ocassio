@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- LOGO -->
     <link rel="shortcut icon" href="./img/foto-logo.png" type="image/x-icon" />
+    <!-- ANIMACION AOS-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css" />
     <title>Ocassio | Inicio</title>
@@ -76,7 +78,7 @@
           </div>
           <div class="box">
             <div class="card">
-              <img
+              <img data-aos="zoom-in-right"
                 class="imagen1"
                 src="img/working-profesional.jpg"
                 alt="co-working"
@@ -84,11 +86,11 @@
               <h3>Equipo profesional</h3>
             </div>
             <div class="card">
-              <img class="imagen2" src="img/trabajos-precisos.jpg" alt="casa" />
+              <img data-aos="zoom-in" class="imagen2" src="img/trabajos-precisos.jpg" alt="casa" />
               <h3>Trabajos precisos</h3>
             </div>
             <div class="card">
-              <img
+              <img data-aos="zoom-in-left"
                 class="imagen3"
                 src="img/asesoramiento.jpg"
                 alt="imagen de videollamada"
@@ -134,5 +136,9 @@
         <p>&copy; 2022 <b>Ocassio.</b> Todos los derechos reservados</p>
       </section>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
