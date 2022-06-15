@@ -39,35 +39,35 @@ li {
   z-index: 1;
 }
 /* color de letra del menu*/
-.header a {
+/* .header a {
   color: black;
   text-decoration: none;
   font-weight: bold;
   text-transform: capitalize;
-}
-.logo-nav-container {
+} */
+/* .logo-nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
+} */
 /* TAMAÑO DEL LOGO */
 .logo img {
   width: 60px;
   height: auto;
 }
 /* navegador */
-.navigation ul li {
+/* .navigation ul li {
   display: inline-block;
 }
 .navigation ul li a {
   display: block;
   padding: 0.5rem 1rem;
-}
+} */
 /* color al pasar el mouse por menú */
-.navigation ul li a:hover {
+/* .navigation ul li a:hover {
   color: #75c2c2;
   transition: 0.4s;
-}
+} */
 main {
   padding-top: 8rem;
 }
